@@ -9,11 +9,6 @@ const nextConfig = {
     domains: ['regenbazaar.com', 'avatars.githubusercontent.com', 'pbs.twimg.com', 'cdn-icons-png.flaticon.com', 'github.com', 'fonts.googleapis.com', 'octant.build', 's2.coinmarketcap.com', 'cdn.prod.website-files.com', 'giveth.io', 'metapool.app', 'docs.arbitrum.foundation'],
     unoptimized: true, // Required for static export
   },
-  eslint: {
-    // Warning: This allows production builds to successfully complete even if
-    // your project has ESLint errors.
-    ignoreDuringBuilds: true,
-  },
   typescript: {
     // !! WARN !!
     // Dangerously allow production builds to successfully complete even if
