@@ -1,0 +1,34 @@
+"Leaf": {
+  "type": "object",
+  "properties": {
+    "view_number": { "type": "integer" },
+    "justify_qc": { "$ref": "#/components/schemas/QC" },
+    "next_epoch_justify_qc": { "oneOf": [ { "$ref": "#/components/schemas/NextEpochQC" }, { "type": "null" } ] },
+    "parent_commitment": { "type": "string" },
+    "block_header": { "$ref": "#/components/schemas/Header" },
+    "upgrade_certificate": { "oneOf": [ { "$ref": "#/components/schemas/UpgradeCertificate" }, { "type": "null" } ] },
+    "view_change_evidence": { "oneOf": [ { "$ref": "#/components/schemas/ViewChangeEvidence" }, { "type": "null" } ] },
+    "next_drb_result": { "oneOf": [ { "$ref": "#/components/schemas/DrbResult" }, { "type": "null" } ] },
+    "with_epoch": { "type": "boolean" }
+  }
+},
+"QC": {
+  "type": "object",
+  "description": "Placeholder for QC object. Define fields as per actual API spec."
+},
+"NextEpochQC": {
+  "type": "object",
+  "description": "Placeholder for NextEpochQC object. Define fields as per actual API spec."
+},
+"UpgradeCertificate": {
+  "type": "object",
+  "description": "Placeholder for UpgradeCertificate object. Define fields as per actual API spec."
+},
+"ViewChangeEvidence": {
+  "type": "object",
+  "description": "Placeholder for ViewChangeEvidence object. Define fields as per actual API spec."
+},
+"DrbResult": {
+  "type": "object",
+  "description": "Placeholder for DrbResult object. Define fields as per actual API spec."
+} 
