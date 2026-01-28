@@ -2,7 +2,7 @@
 
 import Script from 'next/script';
 
-const GA_MEASUREMENT_ID = 'G-XXXXXXXXXX'; // Placeholder
+const GA_MEASUREMENT_ID = 'G-HEZS0Z3M2Z'; // Updated ID
 
 export default function Analytics() {
     return (
