@@ -15,8 +15,6 @@ const TropicalScene = dynamic(() => import("./components/TropicalScene"), {
   loading: () => <div className="fixed inset-0 -z-10 bg-[#0f172a]" />, // Minimal placeholder
 });
 
-const logoUrl = "https://avatars.githubusercontent.com/u/145981044?s=200&v=4";
-
 const FundingLive = () => (
   <motion.span
     initial={{ opacity: 0, scale: 0.9 }}

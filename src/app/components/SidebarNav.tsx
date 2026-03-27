@@ -14,7 +14,7 @@ const navLinks = [
   { href: "#blog", label: "Blog", icon: BookOpen },
 ];
 
-const logoUrl = "https://avatars.githubusercontent.com/u/145981044?s=200&v=4";
+const logoUrl = "/images/logo-esx.png";
 
 export default function SidebarNav() {
   const [isExpanded, setIsExpanded] = useState(true);
