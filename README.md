@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# EcoSynthesisX
 
-## Getting Started
+**The dMRV infrastructure for the regenerative economy.**
 
-First, run the development server:
+EcoSynthesisX DAO builds the blockchain and AI tools that verify, measure, and report real-world actions. We empower non-profits to prove their work, tokenize their impact, and unlock global funding.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**Live:** [ecosynthesisx.xyz](https://ecosynthesisx.xyz) · [ecosynthesisx.com](https://ecosynthesisx.com)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## From ground action to on-chain proof
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Data Capture** — partners collect real-world data via drones, cameras, and IoT
+2. **AI Verification** — our AI engines analyze, validate, and verify the submitted evidence
+3. **Blockchain Record** — immutable proof is minted on-chain as a permanent record
+4. **Liquid Asset** — impact becomes a tradeable digital asset (NFTs/Tokens)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Projects in development
 
-## Learn More
+- **DeCleanup dMRV Tool** — the data collection layer; a mobile dApp that turns environmental action into verifiable data
+- **Regen Bazaar** — dMRV tool + global marketplace for tokenized Impact Products
 
-To learn more about Next.js, take a look at the following resources:
+## Case studies (live)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Clean Phangan Impact Collection](https://cleanphangan.regenbazaar.com) — 205+ operations, 90+ tons waste collected, 5,000+ participants
+- [EcoThailand Foundation Impact Collection](https://ecothailand.regenbazaar.com) — 1,000+ students educated, 5+ community gardens, 300+ entities engaged
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Research
 
-## Deploy on Vercel
+- [RWI Reputation Protocol Litepaper](https://github.com/EcoSynthesisX/RWI-Rank-Litepaper) — decentralized ranking engine for the regenerative economy
+- [Circularity Economy Model Litepaper](https://github.com/EcoSynthesisX/Circularity-Litepaper) — click-to-brick framework for local ecosystems
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Next.js · TypeScript · Vercel · Celo blockchain · $ESX governance token.
+
+## Backers
+
+Octant · Celo Public Goods · Gitcoin QF · Giveth QF · Meta Pool DAO · Arbitrum DAO.
+
+## Links
+
+Site: [ecosynthesisx.xyz](https://ecosynthesisx.xyz)
+Support the DAO: [Juicebox](https://juicebox.money/v4/eth:76)
+Verify your impact: [Regen Bazaar](https://regenbazaar.com/form)
