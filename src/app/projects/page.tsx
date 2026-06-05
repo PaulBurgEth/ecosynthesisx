@@ -1,6 +1,11 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import SidebarNav from "../components/SidebarNav";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/projects" },
+};
 
 const projects = [
   {
