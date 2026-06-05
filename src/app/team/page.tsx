@@ -1,5 +1,10 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import SidebarNav from "../components/SidebarNav";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/team" },
+};
 
 const teamMembers = [
   {
