@@ -180,7 +180,6 @@ export default function Home() {
           <div className="relative group p-1 rounded-3xl bg-gradient-to-r from-teal-500 via-blue-500 to-purple-600">
             <div className="absolute inset-0 bg-gradient-to-r from-teal-500 via-blue-500 to-purple-600 rounded-3xl blur opacity-20 group-hover:opacity-40 transition-opacity duration-1000" />
             <div className="relative bg-[#0f172a] rounded-[22px] overflow-hidden">
-              <div className="absolute inset-0 bg-[url('/noise.png')] opacity-20 mix-blend-overlay" />
               <div className="relative p-8 md:p-12 text-center">
                 <h2 className="text-3xl md:text-5xl font-bold mb-6 leading-tight">
                   Shape a <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-400">Better World</span>
