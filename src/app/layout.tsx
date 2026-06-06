@@ -30,8 +30,8 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.ecosynthesisx.com"),
-  title: "EcoSynthesisX DAO | dMRV Infrastructure & Impact Tokenization",
-  description: "EcoSynthesisX DAO builds AI and Blockchain tools to verify, measure, and tokenize real-world environmental impact. Enterprise-grade dMRV for the regenerative economy.",
+  title: "EcoSynthesisX DAO | dMRV & Impact Tokenization",
+  description: "AI and blockchain tools to verify, measure, and tokenize real-world environmental impact. Enterprise-grade dMRV for the regenerative economy.",
   keywords: ["dMRV", "Regenerative Finance", "ReFi", "Web3 Impact", "Carbon Credit Verification", "Blockchain ESG", "Impact Tokenization", "EcoSynthesisX", "DAO"],
   alternates: {
     canonical: "https://www.ecosynthesisx.com",
