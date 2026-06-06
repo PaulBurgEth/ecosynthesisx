@@ -1,3 +1,5 @@
+const { withSentryConfig } = require('@sentry/nextjs');
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
@@ -20,4 +22,11 @@ const nextConfig = {
   },
 };
 
-module.exports = nextConfig;
+// Sentry wrap. Runtime capture is gated on the DSN env vars (no-op if unset); no auth token needed to build.
+module.exports = withSentryConfig(nextConfig, {
+  org: 'vitacrypt',
+  project: 'ecosynthesisx',
+  silent: !process.env.CI,
+  widenClientFileUpload: true,
+  disableLogger: true,
+});
