@@ -462,6 +462,11 @@ export default function Home() {
 
         {/* Footer */}
         <footer className="w-full text-center py-8 text-sm text-gray-500 border-t border-white/5">
+          <nav className="mb-3 flex flex-wrap justify-center gap-x-6 gap-y-2">
+            <Link href="/projects" className="hover:text-teal-300 transition-colors">Projects</Link>
+            <Link href="/team" className="hover:text-teal-300 transition-colors">Team</Link>
+            <Link href="/endorsements" className="hover:text-teal-300 transition-colors">Endorsements</Link>
+          </nav>
           <p>&copy; 2026 EcoSynthesisX DAO. Open Source & Decentralized.</p>
         </footer>
       </main>
