@@ -42,4 +42,4 @@ Octant · Celo Public Goods · Gitcoin QF · Giveth QF · Meta Pool DAO · Arbit
 
 Site: [ecosynthesisx.com](https://www.ecosynthesisx.com/)
 Support the DAO: [Juicebox](https://juicebox.money/v4/eth:76)
-Verify your impact: [Regen Bazaar](https://regenbazaar.com/form)
+Tokenize your impact: [Regen Bazaar for NGOs](https://regenbazaar.com/ngos)
