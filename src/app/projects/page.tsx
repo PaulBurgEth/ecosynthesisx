@@ -19,7 +19,7 @@ const projects = [
   {
     name: "Regen Bazaar",
     logo: "https://avatars.githubusercontent.com/u/145981044?s=200&v=4",
-    description: "A marketplace for regenerative goods and services, supporting local and global impact.",
+    description: "A marketplace for tRWI (Tokenized Real-World Impact): verified real-world impact that anyone can fund in a stablecoin, with the organisation paid in the same transaction.",
     twitter: "https://twitter.com/regenbazaar",
     telegram: "https://t.me/regenbazaar",
     github: "https://github.com/regenbazaar"

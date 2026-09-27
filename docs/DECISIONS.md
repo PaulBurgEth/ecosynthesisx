@@ -39,3 +39,9 @@ Three separate fixes, merged as PRs #1, #2, #3:
 - Production deploy succeeded (`readyState: READY`).
 - Live check: `/`, `/projects`, `/team`, `/endorsements` all return HTTP 200 with self-referencing canonical tags matching the sitemap.
 - **Pending (manual, owner action):** trigger an Ahrefs re-crawl to clear the original error.
+
+## 2026-09-27 · "Impact Product" / "Impact Collection" renamed to tRWI
+
+- **What:** the partner cards now read "tRWI Pilot Released" / "View tRWI Collection"; Regen Bazaar descriptions (home and `/projects`) use the tRWI canon from `RegenBazaar/index.html`; first mention carries "tRWI (Tokenized Real-World Impact)"; keywords gained "tRWI" and "Tokenized Real-World Impact"; README updated.
+- **Why:** Regen Bazaar moved from "Impact Product" to tRWI. Clean Phangan and EcoThailand are called pilots because they predate tRWI v2 (ERC-1155 editions, USDG, EAS).
+- **Not changed:** the `impactProducts` export and the `#impact-products` anchor (internal names, and the anchor may be linked from outside); the DevCon talk card keeps a mention of "Impact Products" as the talk's original term.
