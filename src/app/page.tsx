@@ -68,32 +68,32 @@ export default function Home() {
         >
           <motion.div variants={itemVariants} className="mb-6">
             <span className="text-teal-400 text-sm md:text-base font-bold tracking-[0.2em] uppercase bg-teal-950/30 border border-teal-500/20 px-4 py-2 rounded-full backdrop-blur-sm">
-              The dMRV Infrastructure for the Regenerative Economy
+              Web3 Public Good Studio · Tokenized Real-World Impact
             </span>
           </motion.div>
 
           <motion.h1 variants={itemVariants} className="text-5xl sm:text-7xl md:text-8xl font-bold tracking-tighter mb-8 bg-gradient-to-b from-white via-teal-100 to-teal-400 bg-clip-text text-transparent drop-shadow-lg max-w-4xl mx-auto leading-[1.1]">
-            Turn Real-World Impact into <span className="text-teal-400">Digital Assets</span>
+            Turn Real-World Impact into <span className="text-teal-400">Fundable Assets</span>
           </motion.h1>
 
           <motion.p variants={itemVariants} className="text-xl sm:text-2xl text-gray-300 max-w-3xl leading-relaxed mb-10 font-light mx-auto">
-            EcoSynthesisX DAO builds the blockchain and AI tools that verify, measure, and report real-world actions. We empower non-profits to prove their work, tokenize their impact, and unlock global funding.
+            EcoSynthesisX is the studio behind Regen Bazaar, DeCleanup and the first tRWI (Tokenized Real-World Impact) pilots. We build the tools that let non-profits prove their work and let anyone fund it.
           </motion.p>
 
           <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4 items-center justify-center w-full sm:w-auto">
             <Link
-              href="https://regenbazaar.com/form"
+              href="https://www.regenbazaar.com/ngos"
               target="_blank"
               className="w-full sm:w-auto px-8 py-4 bg-teal-500 hover:bg-teal-400 text-black font-bold text-lg rounded-full transition-all transform hover:scale-105 shadow-[0_0_20px_rgba(20,184,166,0.3)] hover:shadow-[0_0_40px_rgba(20,184,166,0.5)] flex items-center justify-center gap-2"
             >
-              Verify Your Impact <ShieldCheck size={20} />
+              List Your Impact <ShieldCheck size={20} />
             </Link>
             <Link
-              href="https://juicebox.money/v4/eth:76"
+              href="https://app.regenbazaar.com"
               target="_blank"
               className="w-full sm:w-auto px-8 py-4 bg-transparent border-2 border-teal-500/50 hover:border-teal-400 hover:bg-teal-500/10 text-teal-300 font-bold text-lg rounded-full transition-all flex items-center justify-center gap-2"
             >
-              Support the DAO Infrastructure <Box size={20} />
+              Fund Real-World Impact <Box size={20} />
             </Link>
           </motion.div>
         </motion.header>
@@ -108,7 +108,7 @@ export default function Home() {
         >
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-teal-200 to-white bg-clip-text text-transparent">From Ground Action to On-Chain Proof</h2>
-            <p className="text-gray-400 max-w-2xl mx-auto text-lg">Our rigorous process transforms physical work into tradeable, trusted digital assets.</p>
+            <p className="text-gray-400 max-w-2xl mx-auto text-lg">How physical work becomes a verified tRWI that anyone can fund.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 relative">
@@ -116,10 +116,10 @@ export default function Home() {
             <div className="hidden lg:block absolute top-12 left-0 w-full h-0.5 bg-gradient-to-r from-teal-500/0 via-teal-500/30 to-teal-500/0 -z-10" />
 
             {[
-              { icon: <Camera size={32} />, title: "Data Capture", desc: "Partners collect real-world data via drones, cameras, and IoT." },
-              { icon: <Brain size={32} />, title: "AI Verification", desc: "Our AI engines analyze, validate, and verify the submitted evidence." },
-              { icon: <Box size={32} />, title: "Blockchain Record", desc: "Immutable proof is minted on-chain as a permanent record." },
-              { icon: <Coins size={32} />, title: "Liquid Asset", desc: "Impact becomes a tradeable digital asset (NFTs/Tokens)." }
+              { icon: <Camera size={32} />, title: "Report", desc: "Partners document the work with geolocated photos and a plain-language report." },
+              { icon: <Brain size={32} />, title: "Score & Review", desc: "AI extracts the facts, a published formula scores them, and a person reviews the claim." },
+              { icon: <Box size={32} />, title: "Onchain Proof", desc: "The approved claim is attested onchain as a permanent, public record." },
+              { icon: <Coins size={32} />, title: "Fund", desc: "The impact is listed as a tRWI. A funder pays in a stablecoin and the organisation is paid in the same transaction." }
             ].map((step, idx) => (
               <GlassCard key={idx} className="flex flex-col items-center text-center p-8 relative overflow-hidden group hover:-translate-y-2 transition-transform duration-300">
                 <div className="w-24 h-24 rounded-full bg-teal-500/10 border border-teal-500/30 flex items-center justify-center mb-6 text-teal-400 group-hover:scale-110 group-hover:bg-teal-500/20 transition-all duration-300 shadow-[0_0_20px_rgba(20,184,166,0.1)]">
@@ -140,14 +140,14 @@ export default function Home() {
             <GlassCard className="p-8 md:p-12 border-l-4 border-l-teal-500/50 flex flex-col justify-center">
               <div className="mb-6 flex items-center gap-3 text-teal-400">
                 <ShieldCheck size={28} />
-                <span className="font-bold tracking-wider text-sm uppercase">For Funds & Corporates</span>
+                <span className="font-bold tracking-wider text-sm uppercase">For Funders</span>
               </div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">Eliminate Greenwashing.</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">Fund Impact You Can Check.</h2>
               <p className="text-gray-400 text-lg leading-relaxed mb-8">
-                Secure your ESG portfolio with audit-grade data. We provide the dMRV layer that ensures your investments are backed by empirical reality—not just PDF reports. Minimize risk and automate compliance with on-chain verification.
+                Every tRWI links to its evidence, its score and an onchain attestation. You see exactly what you fund before you pay, and the money reaches the organisation in the same transaction, not a quarter later.
               </p>
-              <Link href="#contact" className="inline-flex items-center text-teal-300 font-bold hover:text-teal-200 transition-colors gap-2">
-                Explore Enterprise Solutions <ArrowRight size={18} />
+              <Link href="https://app.regenbazaar.com" target="_blank" className="inline-flex items-center text-teal-300 font-bold hover:text-teal-200 transition-colors gap-2">
+                Browse the Marketplace <ArrowRight size={18} />
               </Link>
             </GlassCard>
 
@@ -159,63 +159,20 @@ export default function Home() {
               </div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">Technology that Funds Your Mission.</h2>
               <p className="text-gray-400 text-lg leading-relaxed mb-8">
-                You focus on the groundwork; we handle the paperwork. Access enterprise-grade verification tools to prove your impact, mint Impact Certificates, and unlock global Web3 liquidity without technical barriers.
+                You focus on the groundwork; we handle the proof. Describe your work in plain words, get it scored and reviewed, and list it as a tRWI that funders anywhere can back. Every sale pays your wallet directly.
               </p>
-              <Link href="https://regenbazaar.com" target="_blank" className="inline-flex items-center text-blue-300 font-bold hover:text-blue-200 transition-colors gap-2">
-                Get Verified & Funded <ArrowRight size={18} />
+              <Link href="https://www.regenbazaar.com/ngos" target="_blank" className="inline-flex items-center text-blue-300 font-bold hover:text-blue-200 transition-colors gap-2">
+                List Your Impact <ArrowRight size={18} />
               </Link>
             </GlassCard>
           </div>
         </section>
 
-        {/* Juicebox CTA - Governance */}
-        <motion.section
-          id="governance"
-          initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8 }}
-          className="w-full max-w-5xl mb-24"
-        >
-          <div className="relative group p-1 rounded-3xl bg-gradient-to-r from-teal-500 via-blue-500 to-purple-600">
-            <div className="absolute inset-0 bg-gradient-to-r from-teal-500 via-blue-500 to-purple-600 rounded-3xl blur opacity-20 group-hover:opacity-40 transition-opacity duration-1000" />
-            <div className="relative bg-[#0f172a] rounded-[22px] overflow-hidden">
-              <div className="relative p-8 md:p-12 text-center">
-                <h2 className="text-3xl md:text-5xl font-bold mb-6 leading-tight">
-                  Shape a <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-400">Better World</span>
-                </h2>
-                <p className="text-xl text-gray-300 mb-10 max-w-2xl mx-auto">
-                  Contribute ETH to get <b>$ESX tokens</b> – your key to governance, voting, and future perks.
-                </p>
-
-                <div className="flex flex-col sm:flex-row justify-center gap-6 mb-12">
-                  <div className="px-6 py-4 rounded-xl bg-white/5 border border-white/10 backdrop-blur-sm">
-                    <h4 className="text-teal-300 font-bold text-lg mb-1">Decentralized Governance</h4>
-                    <p className="text-sm text-gray-400">Vote on future developments</p>
-                  </div>
-                  <div className="px-6 py-4 rounded-xl bg-white/5 border border-white/10 backdrop-blur-sm">
-                    <h4 className="text-teal-300 font-bold text-lg mb-1">Exchangeable Utility</h4>
-                    <p className="text-sm text-gray-400">Support nonprofits & cleanups</p>
-                  </div>
-                </div>
-
-                <Link
-                  href="https://juicebox.money/v4/eth:76"
-                  target="_blank"
-                  className="inline-flex items-center gap-3 px-8 py-4 bg-teal-500 hover:bg-teal-400 text-black font-bold text-lg rounded-full transition-all transform hover:scale-105 shadow-[0_0_20px_rgba(20,184,166,0.3)] hover:shadow-[0_0_40px_rgba(20,184,166,0.5)]"
-                >
-                  Become a Stakeholder <ArrowRight size={20} />
-                </Link>
-              </div>
-            </div>
-          </div>
-        </motion.section>
-
         {/* Projects Section - Bento Grid */}
         <section id="projects-in-development" className="w-full max-w-6xl mb-24">
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center flex items-center justify-center gap-4">
             <span className="w-12 h-[1px] bg-teal-500/50" />
-            Projects In Development
+            Our Projects
             <span className="w-12 h-[1px] bg-teal-500/50" />
           </h2>
 
@@ -462,7 +419,7 @@ export default function Home() {
 
         {/* Footer */}
         <footer className="w-full text-center py-8 text-sm text-gray-500 border-t border-white/5">
-          <p>&copy; 2026 EcoSynthesisX DAO. Open Source & Decentralized.</p>
+          <p>&copy; 2026 EcoSynthesisX. Web3 public good studio.</p>
         </footer>
       </main>
     </div>

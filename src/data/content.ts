@@ -1,8 +1,6 @@
 export const socialLinks = {
   twitter: "https://x.com/EcoSynthesisX",
   telegram: "https://t.me/EcoSynthesisX",
-  discord: "https://discord.gg/EcoSynthesisX",
-  juicebox: "https://juicebox.money/v4/eth:76",
 };
 
 export const interviews = [
@@ -13,7 +11,7 @@ export const interviews = [
     // Thumbnail from YouTube video ID bmrc4CB4yKg
     thumbnail: "https://img.youtube.com/vi/bmrc4CB4yKg/maxresdefault.jpg",
     title: "DevCon SEA 2024: The Future of Impact Markets",
-    description: "Presentation on Real WorldImpact Products and Marketplaces at DevCon SEA 2024.",
+    description: "Presentation on tokenized Real-World Impact (then called Impact Products, now tRWI) and impact marketplaces at DevCon SEA 2024.",
     label: "Keynote Presentation",
     icon: "play",
     highlight: true
@@ -79,9 +77,9 @@ export const projects = [
     logo: "https://avatars.githubusercontent.com/u/196631779?s=96&v=4",
     preview: "/images/regen-bazaar.png",
     subtitle: "dMRV Tool & Impact Marketplace",
-    description: "A dual-purpose platform for the regenerative economy. First, it serves as a dMRV tool to verify and tokenize real-world activities (like beach cleanups, reforestation, or biodiversity efforts) into digital assets. Second, it acts as a global marketplace where these \"Impact Products\" are listed for corporate and retail buyers.",
-    status: "MVP in Development",
-    statusColor: "yellow",
+    description: "A dual-purpose platform for the regenerative economy. First, it serves as a dMRV tool to verify and tokenize real-world activities (like beach cleanups, reforestation, or biodiversity efforts) into digital assets. Second, it acts as a global marketplace where anyone can fund them as tRWI (Tokenized Real-World Impact) in a stablecoin, with the organisation paid in the same transaction.",
+    status: "Public Beta on Testnets",
+    statusColor: "green",
     links: {
       website: "https://regenbazaar.com/",
       twitter: "https://x.com/RegenBazaar",
@@ -121,16 +119,16 @@ export const impactProducts = [
     name: "Clean Phangan",
     logo: "https://pbs.twimg.com/profile_images/1700744561138737152/ncHXMdDT_400x400.jpg",
     tags: ["Marine & Jungle Conservation"],
-    status: "Impact Collection Released",
+    status: "tRWI Pilot Released",
     statusColor: "green",
-    description: "Our pilot partner for tokenized conservation. We successfully transformed their data from beach and jungle cleanups into verifiable digital assets. This project proves our core concept: that Real-World Impact (RWI) can be digitized and funded globally.",
+    description: "Our pilot partner for tokenized conservation. We successfully transformed their data from beach and jungle cleanups into verifiable digital assets. This first tRWI (Tokenized Real-World Impact) pilot proves our core concept: that real-world impact can be tokenized and funded globally.",
     links: {
       twitter: "https://twitter.com/decleanup",
       telegram: "https://t.me/decleanup",
       github: "https://github.com/decleanup",
       website: "https://cleanphangan.regenbazaar.com"
     },
-    buttonText: "View Impact Collection",
+    buttonText: "View tRWI Collection",
     stats: [
       { value: "205+", label: "Operations" },
       { value: "90+", label: "Tons Waste Collected" },
@@ -141,14 +139,14 @@ export const impactProducts = [
     name: "Eco Thailand Foundation",
     logo: "/EcoThailandLogo.png",
     tags: ["Education & Community Resilience"],
-    status: "Impact Collection Released",
+    status: "tRWI Pilot Released",
     statusColor: "green",
-    description: "Our second partner for Real-World Impact tokenization. We have successfully launched the framework to verify and tokenize their community gardens and sustainability education workshops, expanding our dMRV scope beyond just waste management.",
+    description: "Our second tRWI (Tokenized Real-World Impact) pilot partner. We have successfully launched the framework to verify and tokenize their community gardens and sustainability education workshops, expanding our dMRV scope beyond just waste management.",
     links: {
       telegram: "https://web.telegram.org/a/#-1002094600518",
       website: "https://ecothailand.regenbazaar.com",
     },
-    buttonText: "View Impact Collection",
+    buttonText: "View tRWI Collection",
     stats: [
       { value: "1,000+", label: "Students Educated" },
       { value: "5+", label: "Community Gardens" },

@@ -39,3 +39,16 @@ Three separate fixes, merged as PRs #1, #2, #3:
 - Production deploy succeeded (`readyState: READY`).
 - Live check: `/`, `/projects`, `/team`, `/endorsements` all return HTTP 200 with self-referencing canonical tags matching the sitemap.
 - **Pending (manual, owner action):** trigger an Ahrefs re-crawl to clear the original error.
+
+## 2026-09-27 · "Impact Product" / "Impact Collection" renamed to tRWI
+
+- **What:** the partner cards now read "tRWI Pilot Released" / "View tRWI Collection"; Regen Bazaar descriptions (home and `/projects`) use the tRWI canon from `RegenBazaar/index.html`; first mention carries "tRWI (Tokenized Real-World Impact)"; keywords gained "tRWI" and "Tokenized Real-World Impact"; README updated.
+- **Why:** Regen Bazaar moved from "Impact Product" to tRWI. Clean Phangan and EcoThailand are called pilots because they predate tRWI v2 (ERC-1155 editions, USDG, EAS).
+- **Not changed:** the `impactProducts` export and the `#impact-products` anchor (internal names, and the anchor may be linked from outside); the DevCon talk card keeps a mention of "Impact Products" as the talk's original term.
+
+## 2026-09-27 · Repositioned as the parent studio, DAO/JuiceBox removed
+
+- **What:** EcoSynthesisX is presented as the Web3 public good studio behind Regen Bazaar, DeCleanup and the tRWI pilots, not as a fundraising DAO. The hero, pipeline, audience cards, meta tags, JSON-LD and README were rewritten to match the tRWI canon ("fund real-world impact"). The JuiceBox/$ESX governance section and its sidebar link were removed. The dead Discord invite ("Unknown Invite") was removed from the sidebar, JSON-LD and `socialLinks`. The hero CTA `regenbazaar.com/form` (404) now points to `regenbazaar.com/ngos`. The Regen Bazaar status reads "Public Beta on Testnets".
+- **Why:** the owner's call (2026-09-27): EcoSynthesisX is the parent studio, and the "enterprise-grade dMRV / ESG" and DAO framing no longer matched what exists.
+- **Not changed:** the DeCleanup card copy and status (pending a decision with the DeCleanup co-founder); the Innovation Roadmap litepapers; the backers list.
+- **Fragile:** the unused `FundingLive` component and the `socialLinks` export are still in the code; the `#enterprise` anchor id is kept although the section is now "For Funders / For Non-Profits".
