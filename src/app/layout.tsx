@@ -30,15 +30,15 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.ecosynthesisx.com"),
-  title: "EcoSynthesisX DAO | dMRV Infrastructure & Impact Tokenization",
-  description: "EcoSynthesisX DAO builds AI and Blockchain tools to verify, measure, and tokenize real-world environmental impact. Enterprise-grade dMRV for the regenerative economy.",
-  keywords: ["dMRV", "Regenerative Finance", "ReFi", "Web3 Impact", "Carbon Credit Verification", "Blockchain ESG", "Impact Tokenization", "tRWI", "Tokenized Real-World Impact", "EcoSynthesisX", "DAO"],
+  title: "EcoSynthesisX | Web3 Public Good Studio behind Regen Bazaar & DeCleanup",
+  description: "EcoSynthesisX is the Web3 public good studio behind Regen Bazaar, DeCleanup and the first tRWI (Tokenized Real-World Impact) pilots. We build tools that let non-profits prove their work and let anyone fund it.",
+  keywords: ["dMRV", "Regenerative Finance", "ReFi", "Web3 Impact", "Regen Bazaar", "DeCleanup", "Impact Tokenization", "tRWI", "Tokenized Real-World Impact", "EcoSynthesisX"],
   alternates: {
     canonical: "https://www.ecosynthesisx.com",
   },
   openGraph: {
     title: "EcoSynthesisX | Web3 Public Good Studio",
-    description: "Bridging the gap between blockchain technology and real-world impact.",
+    description: "The studio behind Regen Bazaar, DeCleanup and the first tRWI (Tokenized Real-World Impact) pilots.",
     url: "https://www.ecosynthesisx.com",
     siteName: "EcoSynthesisX",
     images: [
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
         url: "https://www.ecosynthesisx.com/images/og-image.png", // 1200×630px — create this image and upload to /public/images/
         width: 1200,
         height: 630,
-        alt: "EcoSynthesisX DAO — dMRV Infrastructure & Impact Tokenization",
+        alt: "EcoSynthesisX, Web3 public good studio behind Regen Bazaar and DeCleanup",
       },
     ],
     locale: "en_US",
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     site: "@EcoSynthesisX",
     creator: "@EcoSynthesisX",
     title: "EcoSynthesisX | Web3 Public Good Studio",
-    description: "Bridging the gap between blockchain technology and real-world impact.",
+    description: "The studio behind Regen Bazaar, DeCleanup and the first tRWI (Tokenized Real-World Impact) pilots.",
     images: ["https://www.ecosynthesisx.com/images/og-image.png"],
   },
   icons: {

@@ -1,36 +1,34 @@
 # EcoSynthesisX
 
-**The dMRV infrastructure for the regenerative economy.**
+**Web3 public good studio.** EcoSynthesisX is the studio behind Regen Bazaar, DeCleanup and the first tRWI (Tokenized Real-World Impact) pilots. We build the tools that let non-profits prove their work and let anyone fund it.
 
-EcoSynthesisX DAO builds the blockchain and AI tools that verify, measure, and report real-world actions. We empower non-profits to prove their work, tokenize their impact, and unlock global funding.
+**Live:** [ecosynthesisx.com](https://www.ecosynthesisx.com)
 
-**Live:** [ecosynthesisx.xyz](https://ecosynthesisx.xyz) · [ecosynthesisx.com](https://ecosynthesisx.com)
+## From ground action to a fundable tRWI
 
-## From ground action to on-chain proof
+1. **Report**: partners document the work with geolocated photos and a plain-language report
+2. **Score & review**: AI extracts the facts, a published formula scores them, and a person reviews the claim
+3. **Onchain proof**: the approved claim is attested onchain as a permanent, public record
+4. **Fund**: the impact is listed as a tRWI; a funder pays in a stablecoin and the organisation is paid in the same transaction
 
-1. **Data Capture** — partners collect real-world data via drones, cameras, and IoT
-2. **AI Verification** — our AI engines analyze, validate, and verify the submitted evidence
-3. **Blockchain Record** — immutable proof is minted on-chain as a permanent record
-4. **Liquid Asset** — impact becomes a tradeable digital asset (NFTs/Tokens)
+## Projects
 
-## Projects in development
+- **Regen Bazaar**: marketplace for tRWI, public beta on testnets. [app.regenbazaar.com](https://app.regenbazaar.com)
+- **DeCleanup**: dApp that turns cleanups into verifiable, geolocated proof of work. [decleanup.net](https://decleanup.net)
 
-- **DeCleanup dMRV Tool** — the data collection layer; a mobile dApp that turns environmental action into verifiable data
-- **Regen Bazaar** — dMRV tool + global marketplace for tRWI (Tokenized Real-World Impact)
+## tRWI pilot collections (live)
 
-## Case studies (live)
-
-- [Clean Phangan tRWI Pilot Collection](https://cleanphangan.regenbazaar.com) — 205+ operations, 90+ tons waste collected, 5,000+ participants
-- [EcoThailand Foundation tRWI Pilot Collection](https://ecothailand.regenbazaar.com) — 1,000+ students educated, 5+ community gardens, 300+ entities engaged
+- [Clean Phangan](https://cleanphangan.regenbazaar.com) on Optimism: 205+ operations, 90+ tons of waste collected, 5,000+ participants
+- [EcoThailand Foundation](https://ecothailand.regenbazaar.com) on Celo: 1,000+ students educated, 5+ community gardens, 300+ entities engaged
 
 ## Research
 
-- [RWI Reputation Protocol Litepaper](https://github.com/EcoSynthesisX/RWI-Rank-Litepaper) — decentralized ranking engine for the regenerative economy
-- [Circularity Economy Model Litepaper](https://github.com/EcoSynthesisX/Circularity-Litepaper) — click-to-brick framework for local ecosystems
+- [RWI Reputation Protocol Litepaper](https://github.com/EcoSynthesisX/RWI-Rank-Litepaper): a ranking engine for verified impact history
+- [Circularity Economy Model Litepaper](https://github.com/EcoSynthesisX/Circularity-Litepaper): click-to-brick framework for local ecosystems
 
 ## Stack
 
-Next.js · TypeScript · Vercel · Celo blockchain · $ESX governance token.
+Next.js · TypeScript · Tailwind · Vercel.
 
 ## Backers
 
@@ -38,6 +36,6 @@ Octant · Celo Public Goods · Gitcoin QF · Giveth QF · Meta Pool DAO · Arbit
 
 ## Links
 
-Site: [ecosynthesisx.xyz](https://ecosynthesisx.xyz)
-Support the DAO: [Juicebox](https://juicebox.money/v4/eth:76)
-Verify your impact: [Regen Bazaar](https://regenbazaar.com/form)
+- Site: [ecosynthesisx.com](https://www.ecosynthesisx.com)
+- List your impact: [Regen Bazaar for NGOs](https://www.regenbazaar.com/ngos)
+- GitHub: [EcoSynthesisX](https://github.com/EcoSynthesisX)

@@ -1,8 +1,6 @@
 export const socialLinks = {
   twitter: "https://x.com/EcoSynthesisX",
   telegram: "https://t.me/EcoSynthesisX",
-  discord: "https://discord.gg/EcoSynthesisX",
-  juicebox: "https://juicebox.money/v4/eth:76",
 };
 
 export const interviews = [

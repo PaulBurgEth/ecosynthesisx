@@ -5,7 +5,7 @@ export default function JsonLd() {
       {
         "@type": "Organization",
         "@id": "https://www.ecosynthesisx.com/#organization",
-        "name": "EcoSynthesisX DAO",
+        "name": "EcoSynthesisX",
         "url": "https://www.ecosynthesisx.com",
         "logo": {
           "@type": "ImageObject",
@@ -13,11 +13,10 @@ export default function JsonLd() {
           "width": 400,
           "height": 400,
         },
-        "description": "EcoSynthesisX DAO builds AI and Blockchain tools to verify, measure, and tokenize real-world environmental impact. Enterprise-grade dMRV for the regenerative economy.",
+        "description": "EcoSynthesisX is the Web3 public good studio behind Regen Bazaar, DeCleanup and the first tRWI (Tokenized Real-World Impact) pilots. We build tools that let non-profits prove their work and let anyone fund it.",
         "sameAs": [
           "https://x.com/EcoSynthesisX",
           "https://t.me/EcoSynthesisX",
-          "https://discord.gg/ecosynthesisx",
           "https://github.com/EcoSynthesisX",
         ],
       },
