@@ -80,8 +80,8 @@ export const projects = [
     preview: "/images/regen-bazaar.png",
     subtitle: "dMRV Tool & Impact Marketplace",
     description: "A dual-purpose platform for the regenerative economy. First, it serves as a dMRV tool to verify and tokenize real-world activities (like beach cleanups, reforestation, or biodiversity efforts) into digital assets. Second, it acts as a global marketplace where anyone can fund them as tRWI (Tokenized Real-World Impact) in a stablecoin, with the organisation paid in the same transaction.",
-    status: "MVP in Development",
-    statusColor: "yellow",
+    status: "Public Beta on Testnets",
+    statusColor: "green",
     links: {
       website: "https://regenbazaar.com/",
       twitter: "https://x.com/RegenBazaar",
