@@ -30,8 +30,8 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.ecosynthesisx.com"),
-  title: "EcoSynthesisX | Web3 Public Good Studio behind Regen Bazaar & DeCleanup",
-  description: "EcoSynthesisX is the Web3 public good studio behind Regen Bazaar, DeCleanup and the first tRWI (Tokenized Real-World Impact) pilots. We build tools that let non-profits prove their work and let anyone fund it.",
+  title: "EcoSynthesisX | Studio behind Regen Bazaar & DeCleanup",
+  description: "Web3 public good studio behind Regen Bazaar, DeCleanup and the first tRWI (Tokenized Real-World Impact) pilots. Tools to prove impact and fund it.",
   keywords: ["dMRV", "Regenerative Finance", "ReFi", "Web3 Impact", "Regen Bazaar", "DeCleanup", "Impact Tokenization", "tRWI", "Tokenized Real-World Impact", "EcoSynthesisX"],
   alternates: {
     canonical: "https://www.ecosynthesisx.com",
