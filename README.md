@@ -28,7 +28,9 @@
 
 ## Stack
 
-Next.js · TypeScript · Tailwind · Vercel.
+Next.js (static export) · TypeScript · Tailwind · Cloudflare Pages.
+
+Deploy: `npm run build`, then `npx wrangler@4.144.0 pages deploy out --project-name=ecosynthesisx --branch=main` (needs `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`).
 
 ## Backers
 
