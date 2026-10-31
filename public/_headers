@@ -1,0 +1,10 @@
+# Keep the Cloudflare Pages hostnames out of search indexes; the custom domain is not matched.
+https://ecosynthesisx.pages.dev/*
+  X-Robots-Tag: noindex
+
+https://:version.ecosynthesisx.pages.dev/*
+  X-Robots-Tag: noindex
+
+# Vercel sent HSTS by default; keep it.
+/*
+  Strict-Transport-Security: max-age=63072000
