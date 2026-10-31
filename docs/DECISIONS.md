@@ -52,3 +52,10 @@ Three separate fixes, merged as PRs #1, #2, #3:
 - **Why:** the owner's call (2026-09-27): EcoSynthesisX is the parent studio, and the "enterprise-grade dMRV / ESG" and DAO framing no longer matched what exists.
 - **Not changed:** the DeCleanup card copy and status (pending a decision with the DeCleanup co-founder); the Innovation Roadmap litepapers; the backers list.
 - **Fragile:** the unused `FundingLive` component and the `socialLinks` export are still in the code; the `#enterprise` anchor id is kept although the section is now "For Funders / For Non-Profits".
+
+## 2026-10-31 · Moved from Vercel to Cloudflare Pages (static export)
+
+- **What:** `next.config.js` sets `output: 'export'` and `images.unoptimized: true`; `next build` writes `out/`, deployed with `wrangler pages deploy out --project-name=ecosynthesisx`.
+- **Why:** the Vercel Hobby team was paused until 2026-11-30 (HTTP 402 on every site). The site has no server routes, so a static export on the free Cloudflare Pages plan covers it.
+- **Trade-offs:** no image optimisation (images served as-is); `instrumentation.ts` (server Sentry) no longer runs, browser Sentry still does via `NEXT_PUBLIC_SENTRY_DSN` at build time. `vercel.json` kept for rollback.
+- **Fragile:** deploys are manual (`wrangler pages deploy`), there is no git integration on Cloudflare yet.

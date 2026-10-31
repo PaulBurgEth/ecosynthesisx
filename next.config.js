@@ -2,7 +2,10 @@ const { withSentryConfig } = require('@sentry/nextjs');
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Static export for Cloudflare Pages (no server runtime).
+  output: 'export',
   images: {
+    unoptimized: true,
     remotePatterns: [
       { protocol: 'https', hostname: 'regenbazaar.com' },
       { protocol: 'https', hostname: 'avatars.githubusercontent.com' },
